@@ -8,12 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // MARK: - IBOUTLETS
+    // MARK: - PROPERTIES
+    // MARK: - VIEW LIFE CYCLE METHODS
+    // TODO: VIEW DID LOAD
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    // TODO: DEINIT
+    deinit {
+        print("ViewController DEINIT...!")
+    }
+    // MARK: - ACTIONS
+    
 }
+
 
